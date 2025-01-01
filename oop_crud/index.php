@@ -63,7 +63,7 @@ $users=$userObject->getUsers();
                     <td><?php echo $user['email_db']  ?></td>
                     <td><?php  echo $user['birth_db'] ?></td>
                     <td>
-                            <a href="function/update.php?id=<?php echo $user['id']; ?>" style="text-decoration: none; color: inherit;">update
+                            <a href="function/update.php?id=<?php echo $user['id']; ?>" >update
                             </a>
                         </td>                    <td>
 
