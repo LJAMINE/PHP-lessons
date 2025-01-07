@@ -1,0 +1,43 @@
+Array
+(
+    [0] => Array
+        (
+            [productid] => 1
+            [photo] => Debitis ut consequat
+            [name] => Murphy Velazquez
+            [description] => Fugit excepturi lab
+            [status] => available
+            [price] => 573.00
+        )
+
+    [1] => Array
+        (
+            [productid] => 2
+            [photo] => Debitis ut consequat
+            [name] => Murphy Velazquez
+            [description] => Fugit excepturi lab
+            [status] => available
+            [price] => 573.00
+        )
+
+    [2] => Array
+        (
+            [productid] => 3
+            [photo] => Enim et ipsa ea rep
+            [name] => Laurel Hampton
+            [description] => In enim proident co
+            [status] => available
+            [price] => 983.00
+        )
+
+    [3] => Array
+        (
+            [productid] => 4
+            [photo] => Enim et ipsa ea rep
+            [name] => Laurel Hampton
+            [description] => In enim proident co
+            [status] => available
+            [price] => 983.00
+        )
+
+)
