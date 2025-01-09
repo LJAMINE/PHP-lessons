@@ -9,7 +9,7 @@ public function __construct($name,$color){
 }
 
 public function presneter(){
-    echo "name is {$this->name}  and color is {$this->color}" . "<br >" ;
+    echo "name is {$this->name} and color is {$this->color}" . "<br >" ;
 }
 
 }
