@@ -36,3 +36,6 @@ class Etudiantt
 }
 $pou = new Etudiantt("lmgrm", "amine");
 $pou->affichage();
+
+
+

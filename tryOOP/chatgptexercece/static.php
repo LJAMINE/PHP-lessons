@@ -17,4 +17,8 @@ $neert=new Utilisateur(12);
 $neert=new Utilisateur(12);
 echo $neert->getCompteur();
 
+
+
+
+
 ?>

@@ -23,16 +23,17 @@
 
 class CompteBancairetest
 {
-    public $titulaire; 
+    public $titulaire;
     public $solde;
     // public $montant; 
 
 
 
 
-    public function __construct($solde,$titulaire){
-        $this->solde=$solde;
-        $this->titulaire=$titulaire;
+    public function __construct($solde, $titulaire)
+    {
+        $this->solde = $solde;
+        $this->titulaire = $titulaire;
         // $this->montant=$montant;
     }
 
@@ -40,7 +41,7 @@ class CompteBancairetest
     {
 
         $this->solde = $this->solde + $montant;
-        echo "solde". $this->solde;
+        echo "solde" . $this->solde;
     }
 
     public function retirer($montant)
@@ -49,8 +50,7 @@ class CompteBancairetest
             echo "error";
         } else {
             $this->solde -= $montant;
-        echo "solde". $this->solde;
-            
+            echo "solde" . $this->solde;
         }
     }
 }
@@ -58,6 +58,6 @@ class CompteBancairetest
 
 
 // $solde = 100;
-$newnumer = new CompteBancairetest(100,"amijne");
+$newnumer = new CompteBancairetest(100, "amijne");
 $newnumer->deposer(40);
 $newnumer->retirer(40);

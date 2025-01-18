@@ -4,9 +4,13 @@ interface souvgarde{
 }
 
 
-class Utilisateur implements souvgarde{
+class Utilisateurr implements souvgarde{
     public function sauvegarder(){
         echo "confirù please";
     }
 } 
+
+
+$p=new Utilisateurr();
+$p->sauvegarder();
 ?>
