@@ -1,0 +1,17 @@
+{
+    "name": "lenovo/php_oop",
+    "autoload": {
+        "psr-4": {
+            "Lenovo\\PhpOop\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "LJAMINE",
+            "email": "aminelmgrmj@gmail.com"
+        }
+    ],
+    "require": {
+        "guzzlehttp/guzzle": "^7.9"
+    }
+}
